@@ -37,9 +37,7 @@ ActiveRecord::Schema.define(version: 2020_10_22_165743) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "city_id"
-    t.integer "specialtiy_id"
     t.index ["city_id"], name: "index_doctors_on_city_id"
-    t.index ["specialtiy_id"], name: "index_doctors_on_specialtiy_id"
   end
 
   create_table "join_table_specialties", force: :cascade do |t|

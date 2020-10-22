@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+FreeDoc - Réserve ton docteur
 
-Things you may want to cover:
+Ce projet permet de renseigner un Patient, un Docteur, un Rendez-Vous. Chacune de ces tables appartient a une ville. 
 
-* Ruby version
+Les Doctors peuvent avoir plusieurs specialités, mais nous n'avons pas reussi a faire fonctionner cette fonction malheuresement.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
